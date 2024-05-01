@@ -10,7 +10,7 @@ export default function Sentimental() {
         const getPoints = async (retryCount = 0) => {
             try {
                 const response = await fetch(
-                    `http://54.163.149.228/api/stockanalysis/${id}/`
+                    `http://127.0.0.1:8000/api/stockanalysis/${id}/`
                 );
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);

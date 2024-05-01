@@ -37,10 +37,10 @@ export default function ParticularStockPg() {
               <div className="col3">
                 <Fundamental />
               </div>
-            {/* <div className="col3">
+            <div className="col3">
 
             <Sentimental/>
-            </div> */}
+            </div>
             </div>
           </div>
         </div>
